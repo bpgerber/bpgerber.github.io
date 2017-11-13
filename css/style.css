@@ -11,7 +11,7 @@
 	body {
 		margin: 0px;
 		padding: 0px;
-		background: #180E0B;
+		background: #151e08;
 		font-family: 'Raleway', sans-serif;
 		font-size: 11pt;
 		color: #000000;
@@ -315,7 +315,7 @@
 		position: relative;
 		padding: 3em 0em;
 		text-align: center;
-		color: #151e08;
+		color: #4D642D;
 	}
 	
 	#copyright .container
@@ -325,5 +325,5 @@
 	#copyright a
 	{
 		text-decoration: none;
-		color: #8c5240 !important;
+		color: #8EA86C !important;
 	}		
