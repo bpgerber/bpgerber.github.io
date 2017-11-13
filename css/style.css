@@ -315,7 +315,7 @@
 		position: relative;
 		padding: 3em 0em;
 		text-align: center;
-		color: #774535;
+		color: #151e08;
 	}
 	
 	#copyright .container
@@ -325,5 +325,5 @@
 	#copyright a
 	{
 		text-decoration: none;
-		color: #774535 !important;
+		color: #8c5240 !important;
 	}		
