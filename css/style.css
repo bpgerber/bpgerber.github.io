@@ -68,15 +68,17 @@
 				{
 					display: block;
 					width: 100%;
-					margin: 0 0 2em 0;
+                                        -webkit-border-radius: 20px;
+                                        -moz-border-radius: 20px;
+                                        border-radius: 20px;
 				}
                 
-                .image.shrink
-                {
-                    display: block;
-                    width: 250px;
-                    margin-bottom: 2em;
-                }
+                                .image.shrink
+                                {
+                                    display: block;
+                                    width: 250px;
+                                    margin-bottom: 2em;
+                                }
 				
 				.image.full
 				{
@@ -102,6 +104,18 @@
 						margin: 0 auto;
 						width: auto;
 					}
+                                .thumbnail:hover 
+                                {
+                                    position:fixed;
+                                    top:10px;
+                                    left:75px;
+                                    width:auto;
+                                    max-width:100%;
+                                    height:95%;
+                                    display:block;
+                                    margin:auto;
+                                    z-index:999;
+                                }
 
 		header
 		{
@@ -208,9 +222,9 @@
 
 	#nav
 	{
-		position: absolute;
+		position: fixed;
 		right: 0em;
-		top: 5em;
+		top: 3em;
 	}
 
 		#nav > ul > li
@@ -228,7 +242,7 @@
 			{
 				display: block;
 				margin-left: 0.7em;
-				padding: 0.80em 1.2em;
+				padding: 0.60em 1.0em;
 				letter-spacing: 0.06em;
 				text-decoration: none;
 				font-size: 1em;

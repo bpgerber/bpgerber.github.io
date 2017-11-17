@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<!--
+	Autonomy by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>A look into the life of a young engineer</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+		<div id="header">
+			<div class="container">
+				
+				<!-- Logo -->
+				<div id="logo">
+					<h1><a href="#">Benjamin Gerber</a></h1>
+				</div>
+				
+				<!-- Nav -->
+				<nav id="nav">
+                                <ul>
+                                    <li><a href="index.html">Homepage</a></li>
+                                    <li class="active"><a href="backpacking.html">Backpacking</a></li>
+                                    <li><a href="research.html">Research</a></li>
+                                    <li><a href="learning_objectives.html">Learning Objectives</a></li>
+                                    <li><a href="engineering.html">Engineering</a></li>
+                                    <li><a href="resume.html">Resume</a></li>
+                                </ul>
+				</nav>
+
+			</div>
+		</div>
+		<!-- Header -->
+
+		<div id="banner">&nbsp;</div>
+
+		<div id="featured">
+			<div class="container">
+				<div class="row">
+					<div class="3u">
+						<section>
+							<header>
+								<h2>Donec dictum metus</h2>
+							</header>
+						</section>
+						<section>
+							<a href="#" class="image full"><img src="images/pics04.jpg" alt=""></a>
+							<header>
+								<h2>Donec dictum</h2>
+							</header>
+							<p>Pellentesque viverra vulputate enim. Aliquam erat volutpat. Curabitur sem urna, consequat mattis placerat, nulla.</p>				
+						</section>
+						<section>
+							<a href="#" class="image full"><img src="images/pics05.jpg" alt=""></a>
+							<header>
+								<h2>Donec dictum</h2>
+							</header>
+							<p>Pellentesque viverra vulputate enim. Aliquam erat volutpat. Curabitur sem urna, consequat mattis placerat, nulla.</p>				
+						</section>
+					</div>		
+					
+					<div class="9u">
+						<section>
+							<header>
+								<h2>Left Sidebar</h2>
+							</header>
+							<a href="#" class="image full"><img src="images/pics12.jpg" alt=""></a>
+							<p>Donec leo. Vivamus fermentum nibh in augue. Praesent a lacus at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Duis enim nulla, luctus eu, dapibus lacinia, venenatis id, quam. Vestibulum imperdiet, magna nec eleifend rutrum, nunc lectus vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat. Vestibulum pellentesque, justo mollis pretium suscipit, justo nulla blandit libero, in blandit augue justo quis nisl. Fusce mattis viverra elit.</p>
+							<p>Praesent a lacus at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Duis enim nulla, luctus eu, dapibus lacinia, venenatis id, quam. Vestibulum imperdiet, magna nec eleifend rutrum, nunc lectus vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat. Vestibulum pellentesque, justo mollis pretium suscipit, justo nulla blandit libero, in blandit augue justo quis nisl. Fusce mattis viverra elit. Fusce quis tortor. Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Curabitur sit amet nulla. Donec leo. Vivamus fermentum nibh in augue. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo. Pellentesque imperdiet.</p>
+							<p>Nullam non wisi a sem semper eleifend. Donec leo. Vivamus fermentum nibh in augue. Praesent a lacus at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Duis enim nulla, luctus eu, dapibus lacinia, venenatis id, quam. Vestibulum imperdiet, magna nec eleifend rutrum, nunc lectus vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat. Vestibulum pellentesque, justo mollis pretium suscipit, justo nulla blandit libero, in blandit augue justo quis nisl. Fusce mattis viverra elit. Fusce quis tortor. Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Curabitur sit amet nulla. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo. Pellentesque imperdiet.</p>
+							
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="marketing">
+			<div class="container">
+				<div class="row">
+					<div class="3u">
+						<section>
+							<header>
+								<h2>Boundary Waters</h2>
+							</header>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<header>
+								<h2> Beautiful Views</h2>
+
+							</header>
+						</section>
+					</div>
+					<div class="6u">
+						<section>
+							<header>
+								<h2>Canoes Everywhere</h2>
+							</header>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="main">
+			<div class="container">
+				<div class="row">
+					<div class="8u">
+						<section>
+							<header>
+								<h2>Backpacking in the Bighorns</h2>
+							</header>
+                                                        <img class="bighorns" src="images/bh_group.jpg" width="100%">
+                                                        <img class="bighorns" src="images/bh_valley.jpg" width="100%">
+                                                        <img class="bighorns" src="images/bh_snow.jpg" width="100%">
+                                                        <img class="bighorns" src="images/bh_river.jpg" width="100%">
+
+                                                        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                                                        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+                                                        <script>
+                                                        var slideIndex = 1;
+                                                        showDivs(slideIndex);
+                                                        slideshow();
+
+                                                        function slideshow()
+                                                        {
+                                                            plusDivs(+1);
+                                                            setTimeout(slideshow, 5000);
+                                                        }
+                                                        function plusDivs(n) {
+                                                            showDivs(slideIndex += n);
+                                                            }
+
+                                                        function showDivs(n) {
+                                                            var i;
+                                                            var x = document.getElementsByClassName("bighorns");
+                                                            if (n > x.length) {slideIndex = 1}    
+                                                            if (n < 1) {slideIndex = x.length}
+                                                            for (i = 0; i < x.length; i++) 
+                                                            {
+                                                               x[i].style.display = "none";  
+                                                            }
+                                                            x[slideIndex-1].style.display = "block";  
+                                                        }
+                                                        </script>
+							<p>This was actually my first backpacking trip. My internship mentor lent me one of his old hiking backpacks and I got some boots to start me on my way. It was a very challenging trip with altitude change almost every single day with a total altitude change of approximately 9800 ft. For someone going on his first hiking trip, this was a lot to take in! Luckily, I was in shape enough that I was able to keep up and ended up loving almost every minute of the trip. Taking a look at our maps, one can see every place that we planned to camp overnight. 
+                                                        </p>
+                                                        <p>There were a lot of fun and challenging things that happened on the trip. Most memorable was definitely right after Elk Lake. We were doing great on time, arriving at around 2:00 PM. It was a bit overcast, but our group decided to try to make it to the next site. My friend Dan and I saw a storm cloud rolling in. We decided it didn't look too good and left the trail to make camp. We made it about 100 yards before the storm rolled in faster than we have ever seen and released a massive hailstorm. We put up our tents in a grove of pine trees as fast as we could, ending up with hail in and around our tents. We huddled in our tents until the torrent subsided 15-20 minutes later. The whole area looked like it had snowed before melting before dark. Luckily, we were able to cook and do everything we needed to after the hail stopped. It was quire an experience going from a 75 degree day and sunny to hail and down to mid-30s at night.
+                                                        <p>
+						</section>
+					</div>
+					<div class="4u">
+						<section>
+							<header>
+								<h2>Our Route</h2>
+							</header>
+                                                        <a href="images/bh_map_1.jpg" class="image full"><img src="images/bh_map_1.jpg" alt=""></a>
+                                                        <a href="images/bh_map_2.jpg" class="image full"><img src="images/bh_map_2.jpg" alt=""></a>
+                                                        <p>We went a total of 70 miles after the detours and backtracking that we did sometimes. The sign at Willow Park Resevoir was flipped around, the path was in disarray, and the second path that was going there pretty much wasn't there. We travelled well past before realizing we were almost at the end of the resevoir. We definitely learned that day that maps can be inaccurate or trails aren't always upkept.
+                                                        </p>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Copyright -->
+                <div id="copyright">
+                    <div class="container">
+                        Design: <a href="http://templated.co">TEMPLATED</a> Images: Ben Gerber, Kelsey Yon, Kenzie Stark, Dr. Amanda Brooks
+                    </div>
+                </div>
+	</body>
+</html>
