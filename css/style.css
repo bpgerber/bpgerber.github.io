@@ -12,7 +12,8 @@
 		margin: 0px;
 		padding: 0px;
 		background: #1a1a1a;
-		font-family: 'Raleway', sans-serif;
+		/*font-family: 'Raleway', sans-serif;*/
+                font-family: 'Ubuntu Condensed', sans-serif;
 		font-size: 11pt;
 		color: #000000;
 	}
