@@ -59,81 +59,80 @@
 				display: inline-block;
 			}
 			
-				.image img
-				{
-					display: block;
-					width: 100%;
-				}
-
-				.image.featured
-				{
-					display: block;
-					width: 100%;
-                                        -webkit-border-radius: 20px;
-                                        -moz-border-radius: 20px;
-                                        border-radius: 20px;
-				}
-                
-                                .image.shrink
-                                {
-                                    display: block;
-                                    width: 250px;
-                                    margin-bottom: 2em;
-                                }
-				
-				.image.full
-				{
-					display: block;
-					width: 100%;
-					margin-bottom: 2em;
-				}
-				
-				.image.left
-				{
-					float: left;
-					margin: 0 2em 2em 0;
-				}
-				
-				.image.centered
-				{
-					display: block;
-					margin: 0 0 2em 0;
-				}
-
-					.image.centered img
-					{
-						margin: 0 auto;
-						width: auto;
-					}
-                                .thumbnail:hover 
-                                {
-                                    position:fixed;
-                                    top:10px;
-                                    left:75px;
-                                    width:auto;
-                                    max-width:100%;
-                                    height:95%;
-                                    display:block;
-                                    margin:auto;
-                                    z-index:999;
-                                }
-
-		header
-		{
-			margin-bottom: 1em;
-		}
-			
-			header h2
-			{
-				font-weight: 600;
-			}
-		
-			header .byline
+			.image img
 			{
 				display: block;
-				margin: 0.5em 0 0 0;
-				padding: 0 0 0.5em 0;
+				width: 100%;
+                                border-radius: 3%;
 			}
+
+			.image.featured
+			{
+				display: block;
+				width: 100%;
+                                border-radius: 20px;
+			}
+               
+                        .image.shrink
+                        {
+                                display: block;
+                                width: 250px;
+                                margin-bottom: 2em;
+                        }
+				
+			.image.full
+			{
+				display: block;
+				width: 100%;
+				margin-bottom: 2em;
+			}
+				
+			.image.left
+			{
+				float: left;
+				margin: 0 2em 2em 0;
+			}
+			
+			.image.centered
+			{
+				display: block;
+				margin: 0 0 2em 0;
+			}
+
+			.image.centered img
+			{
+				margin: 0 auto;
+				width: auto;
+			}
+                        .thumbnail:hover 
+                        {
+                                position:fixed;
+                                top:10px;
+                                left:75px;
+                                width:auto;
+                                max-width:100%;
+                                height:95%;
+                                display:block;
+                                margin:auto;
+                                z-index:999;
+                        }
+
+		    header
+		    {
+			margin-bottom: 1em;
+		    }   
+			
+		    header h2
+		    {
+			font-weight: 600;
+		    }
+		
+		    header .byline
+		    {
+		    	display: block;
+			margin: 0.5em 0 0 0;
+	    		padding: 0 0 0.5em 0;
+	            }
 
 		ul.style
 		{
@@ -189,7 +188,7 @@
 		#header .container
 		{
 			position: relative;
-			padding: 6em 0em;
+			padding: 4em 0em;
 		}
 
 /*********************************************************************************/
@@ -200,7 +199,7 @@
 	{
 		position: absolute;
 		left: 0em;
-		top: 4.5em;
+		top: 2.5em;
 	}
 	
 		#logo h1
@@ -225,7 +224,7 @@
 	{
 		position: fixed;
 		right: 0em;
-		top: 3em;
+		top: 2.5em;
 	}
 
 		#nav > ul > li

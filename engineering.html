@@ -13,6 +13,8 @@
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+                <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet" type='text/css'>
+                <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet"i type='text/css'> 
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-panels.min.js"></script>
 		<script src="js/init.js"></script>
@@ -59,35 +61,33 @@
 					<div class="3u">
 						<section>
 							<header>
-								<h2>Donec dictum metus</h2>
+								<h2>Electrooculogram Signal</h2>
 							</header>
 						</section>
 						<section>
 							<a href="#" class="image full"><img src="images/pics04.jpg" alt=""></a>
 							<header>
-								<h2>Donec dictum</h2>
+								<h2>PCB Revision 2</h2>
 							</header>
-							<p>Pellentesque viverra vulputate enim. Aliquam erat volutpat. Curabitur sem urna, consequat mattis placerat, nulla.</p>				
-						</section>
-						<section>
-							<a href="#" class="image full"><img src="images/pics05.jpg" alt=""></a>
-							<header>
-								<h2>Donec dictum</h2>
-							</header>
-							<p>Pellentesque viverra vulputate enim. Aliquam erat volutpat. Curabitur sem urna, consequat mattis placerat, nulla.</p>				
+                                                        <a href="#" class="image full"><img src="images/board_rev2.png" alt=""></a>
 						</section>
 					</div>		
 					
 					<div class="9u">
 						<section>
 							<header>
-								<h2>Left Sidebar</h2>
+								<h2>REM Sleep Cycle Monitor</h2>
 							</header>
-							<a href="#" class="image full"><img src="images/pics12.jpg" alt=""></a>
-							<p>Donec leo. Vivamus fermentum nibh in augue. Praesent a lacus at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Duis enim nulla, luctus eu, dapibus lacinia, venenatis id, quam. Vestibulum imperdiet, magna nec eleifend rutrum, nunc lectus vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat. Vestibulum pellentesque, justo mollis pretium suscipit, justo nulla blandit libero, in blandit augue justo quis nisl. Fusce mattis viverra elit.</p>
-							<p>Praesent a lacus at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Duis enim nulla, luctus eu, dapibus lacinia, venenatis id, quam. Vestibulum imperdiet, magna nec eleifend rutrum, nunc lectus vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat. Vestibulum pellentesque, justo mollis pretium suscipit, justo nulla blandit libero, in blandit augue justo quis nisl. Fusce mattis viverra elit. Fusce quis tortor. Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Curabitur sit amet nulla. Donec leo. Vivamus fermentum nibh in augue. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo. Pellentesque imperdiet.</p>
-							<p>Nullam non wisi a sem semper eleifend. Donec leo. Vivamus fermentum nibh in augue. Praesent a lacus at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Duis enim nulla, luctus eu, dapibus lacinia, venenatis id, quam. Vestibulum imperdiet, magna nec eleifend rutrum, nunc lectus vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat. Vestibulum pellentesque, justo mollis pretium suscipit, justo nulla blandit libero, in blandit augue justo quis nisl. Fusce mattis viverra elit. Fusce quis tortor. Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Curabitur sit amet nulla. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo. Pellentesque imperdiet.</p>
 							
+                                                        <p>My senior design project for my Electrical Engineering degree at North Dakota State University is called the REM Sleep Cycle Monitor. A big trend nowadays is using movement on phones or Fitbit bands. These are nice, but they aren't extremely accurate as different people move in their sleep different amounts. However, we wanted a much more accurate method of obtaining REM sleep information. This is where our project comes in. We used electrooculogram in order to measure eye movement. There is a voltage difference between one side of your forehead and the other caused by movement in the eyes with a reference in the middle of the forehead that acts as an unchanging midpoint. These can be taken in as signals by electrodes. We were tasked by making a headband embedded system to process the EOG signals. 
+                                                        </p>
+
+                                                        <p>We can measure this, amplify it, and filter out most of the noise from it. We then do some processing on our chip in order to send it off via BLE to a smartphone. We created a circuit to accomplish this at very low power so we can reduce battery size, EM radiation, and increase battery life. Our circuit power characteristics were able to meet our power requirement, so we were able to make the PCB. I enjoy designing PCBs and making efficient design, so I got to work and ended up making a cost-efficient 4 layer board that was 1.25 in. x 1.75 in. This was most of the first semester in addition to getting BLE transmitting and receiving. We also 3D modeled and designed the enclosure that was to surround the board and attach to the headband and electrodes. 
+                                                        </p>
+
+                                                        <p> Once all the hardware was ordered and prototyped the first semester, we moved on to software development second semester. Our main software is an Android App to monitor, record, and process the signals sent over bluetooth. The app functionality includes graphs of sleep cycles, storage of past sleep records, lucid dreaming cuing, and smart alarms.  
+                                                        </p>
+
 						</section>
 					</div>
 				</div>
@@ -96,50 +96,26 @@
 		<div id="marketing">
 			<div class="container">
 				<div class="row">
-					<div class="3u">
-						<section>
-							<header>
-								<h2>Praesent eleifend</h2>
-							</header>
-							<ul class="style1">
-								<li class="first"><img src="images/pics06.jpg" width="80" height="80" alt="">
-									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
-								</li>
-								<li><img src="images/pics07.jpg" width="80" height="80" alt="">
-									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
-								</li>
-								<li><img src="images/pics08.jpg" width="80" height="80" alt="">
-									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
-								</li>
-							</ul>
-						</section>
-					</div>
-					<div class="3u">
-						<section>
-							<header>
-								<h2>Maecenas lectus</h2>
-
-							</header>
-							<ul class="style1">
-								<li class="first"><img src="images/pics09.jpg" width="80" height="80" alt="">
-									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
-								</li>
-								<li><img src="images/pics10.jpg" width="80" height="80" alt="">
-									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
-								</li>
-								<li><img src="images/pics11.jpg" width="80" height="80" alt="">
-									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
-								</li>
-							</ul>
-						</section>
-					</div>
 					<div class="6u">
 						<section>
 							<header>
-								<h2>Aenean elementum facilisis ligula</h2>
+								<h2>Prototype Demonstration</h2>
 							</header>
-							<a href="#" class="image full"><img src="images/pics12.jpg" alt=""></a>
-							<p>Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Duis pretium velit ac mauris. Proin eu wisi suscipit nulla suscipit interdum. Aenean lectus lorem, imperdiet. Donec mattis libero eget urna. Duis pretium velit ac mauris.</p>
+                                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/SXBYrv-O7Vc" frameborder="0" allowfullscreen>
+                                                        </iframe>
+                                                        Incorporation of the sensor was done shortly after and presented in-person.
+						</section>
+                                        </div>
+
+					<div class="6u">
+						<section>
+							<header>
+								<h2>Alcohol Tuned Music Box</h2>
+							</header>
+                                                        <p>This was my final project for my Embedded Systems course. During this course, we hand-soldered a PIC dev board developed my our professor. We designed external circuits to do different things depending on what we had learned in class so far. For my final project, I decided to make a music box. To satisfy the requirements, I needed an analog input incorporated into the project. I decided to vary the frequency of each note on the 8 key piano depending on the analog input. To make the project a bit more interesting, I incorporated an alcohol sensor into the circuit to be the frequency control. I then used hand sanitizer to test the variance of the frequency after I tuned it with an analog dial.
+                                                        </p>
+                                                        <p>This was a very interesting project as I had to make use of multiple timers, ADCs, as well as calibrating timers and multiple values in order to get correct notes. We were allowed to use .wav files during this project, but I decided to put a bit more effort into it. I manually calibrated timer values corresponding to each note with a series of conditionals. The timer was started with a button input, and then ran through twice before reverting to a state of scanning for input. I learned a great deal about calculating timer values, timing errors, and merging sensor inputs and timers. 
+                                                        </p>
 						</section>
 					</div>
 				</div>
