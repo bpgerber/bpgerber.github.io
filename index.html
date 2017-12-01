@@ -13,6 +13,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
                 <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet" type='text/css'>
                 <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet"i type='text/css'> 
+                <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet"> 
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script>
@@ -38,21 +39,75 @@
 				</div>
 
 				<!-- Nav -->
-				<nav id="nav">
+				<!--<nav id="nav">
 					<ul>
 						<li class="active"><a href="index.html">Homepage</a></li>
-						<li><a href="backpacking.html">Backpacking</a></li>
+						<li><a href="resume.html">Resume</a></li>
+						<li><a href="engineering.html">Projects</a></li>
 						<li><a href="research.html">Research</a></li>
                                                 <li><a href="learning_objectives.html">Learning Objectives</a></li>
-						<li><a href="engineering.html">Engineering</a></li>
-						<li><a href="resume.html">Resume</a></li>
+						<li><a href="backpacking.html">Backpacking</a></li>
 					</ul>
-				</nav>
+				</nav>-->
+                                <div class="navbar">
+                                    <a href="backpacking.html">Backpacking</a>
+                                    <div class="dropdown">
+                                        <button class="dropbtn">Projects 
+                                        </button>
+                                        <div class="dropdown-content">
+                                            <a href="senior_design.html">Senior Design</a>
+                                            <a href="engineering.html">Embedded Systems</a>
+                                            <a href="#">Personal Projects</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <button class="dropbtn">Research
+                                        </button>
+                                        <div class="dropdown-content">
+                                            <a href="research.html">Cell Printing</a>
+                                            <a href="learning_objectives.html">CVE 1 Objectives</a>
+                                        </div>
+                                    </div>
+                                    <a href="resume.html">Resume</a>
+                                    <a href="index.html">Homepage</a>
+                                </div>
 
 			</div>
 		</div>
+                <!-- Header -->
 
 		<div id="banner">&nbsp;</div>
+
+                <div id="main">
+                        <div class="container">
+                                <div class="row">
+                                        <div class="3u">
+                                            <section>
+                                                <header>
+                                                    <h2>Photo</h2>
+                                                </header>
+                                                <a href="#" class="image shrink"><img src="images/professional_photo.jpg" alt=""></a>
+                                                Photo courtesy of Faces Fargo ©2017
+                                            </section>
+                                        </div>
+
+                                        <div class="8u">
+                                                <section>
+                                                        <header>
+                                                            <h2>Mission Statement</h2>
+                                                        </header>
+                                                        <p>My name is <strong>Ben Gerber</strong>, I am a senior electrical engineering student at North Dakota Stat    e University with an emphasis on biomedical engineering. My preferred area of focus is embedded systems hardware design with some embedded software programming. I w    ant to work in the biomedical industry because it is a way to make a direct, visible impact on peoples' quality of life. I want to be able to help improve peoples'     heath and quality of life. This area is also more challenging as far as requirements. Two of the most important drivers of my life are challenges and helping people    . <a href="https://www.linkedin.com/in/benjamin-gerber-403774bb/">LinkedIn</a>
+                                                        </p>
+                                                        <header>
+                                                            <h2>About Me</h2>
+                                                        </header>
+                                                        <p>Life isn't just about work either, I have a variety of things I enjoy doing outside work. I definitely en    joy creating and prototyping electrical projects with Arduino, PIC, and MSP Launchpads. Playing jazz saxophone is also something that is very relaxing and fun for m    e. Once a year, my friends and I go on a backpacking trip. I love camping, hiking, and being out in the winderness. You will be able to read more into our trips in     depth on this site.
+                                                        </p>
+                                                </section>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
 
 		<div id="featured">
 			<div class="container">
@@ -60,11 +115,12 @@
 
 					<div class="3u">
 						<section>
-							<a href="engineering.html" class="image full"><img src="images/pics02.jpg" alt=""></a>
+							<a href="engineering.html#marketing" class="image full"><img src="images/pics02.jpg" alt=""></a>
 							<header>
 								<h2>Embedded Systems</h2>
 							</header>
-							<p>A variety of different projects done during my time in embedded systems. Many projects had to do with speaker manipulation in order to have a good demonstration unit.</p>				
+							<p>A variety of different projects done during my time in embedded systems. Many projects had to do with speaker manipulation in order to have a good demonstration unit. The first one was in Assembly and all subsequent assignments were in C.
+                                                        </p>	
 						</section>
 					</div>
 
@@ -80,7 +136,7 @@
 
 					<div class="3u">
 						<section>
-							<a href="engineering.html" class="image full"><img src="images/REM_sleep_analysis.png" alt=""></a>
+							<a href="senior_design.html" class="image full"><img src="images/REM_sleep_analysis.png" alt=""></a>
 							<header>
 								<h2>REM Monitor</h2>
 							</header>
@@ -99,37 +155,6 @@
 						</section>
 					</div>
 
-				</div>
-			</div>
-		</div>
-
-		<div id="main">
-			<div class="container">
-				<div class="row">
-					<div class="3u">
-				            <section>
-						<header>
-						    <h2>Photo</h2>
-						</header>
-                                                <a href="#" class="image shrink"><img src="images/professional_photo.jpg" alt=""></a>
-                                                Photo courtesy of Faces Fargo ©2017
-					    </section>
-					</div>
-
-					<div class="8u">
-						<section>
-							<header>
-							    <h2>Mission Statement</h2>
-							</header>
-                                                        <p>My name is <strong>Ben Gerber</strong>, I am a senior electrical engineering student at North Dakota State University with an emphasis on biomedical engineering. My preferred area of focus is embedded systems hardware design with some embedded software programming. I want to work in the biomedical industry because it is a way to make a direct, visible impact on peoples' quality of life. I want to be able to help improve peoples' heath and quality of life. This area is also more challenging as far as requirements. Two of the most important drivers of my life are challenges and helping people. <a href="https://www.linkedin.com/in/benjamin-gerber-403774bb/">LinkedIn</a>
-                                                        </p>
-                                                        <header>
-                                                            <h2>About Me</h2>
-                                                        </header>
-                                                        <p>Life isn't just about work either, I have a variety of things I enjoy doing outside work. I definitely enjoy creating and prototyping electrical projects with Arduino, PIC, and MSP Launchpads. Playing jazz saxophone is also something that is very relaxing and fun for me. Once a year, my friends and I go on a backpacking trip. I love camping, hiking, and being out in the winderness. You will be able to read more into our trips in depth on this site. 
-                                                        </p>
-						</section>
-					</div>
 				</div>
 			</div>
 		</div>

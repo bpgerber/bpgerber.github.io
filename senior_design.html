@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<!--
+	Autonomy by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>A look into the life of a young engineer</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+                <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet" type='text/css'>
+                <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet"i type='text/css'> 
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+		<div id="header">
+			<div class="container">
+				
+				<!-- Logo -->
+				<div id="logo">
+					<h1><a href="#">Benjamin Gerber</a></h1>
+				</div>
+				
+				<!-- Nav -->
+                                <div class="navbar">
+                                     <a href="backpacking.html">Backpacking</a>
+                                     <div class="dropdown">
+                                         <button class="dropbtn">Projects
+                                         </button>
+                                         <div class="dropdown-content">
+                                             <a href="senior_design.html">Senior Design</a>
+                                             <a href="engineering.html">Embedded Systems</a>
+                                             <a href="projects.html">Personal Projects</a>
+                                         </div>
+                                     </div>
+                                     <div class="dropdown">
+                                         <button class="dropbtn">Research
+                                         </button>
+                                         <div class="dropdown-content">
+                                             <a href="research.html">Cell Printing</a>
+                                             <a href="learning_objectives.html">CVE 1 Objectives</a>
+                                         </div>
+                                     </div>
+                                     <a href="resume.html">Resume</a>
+                                     <a href="index.html">Homepage</a>
+                                </div>
+ 
+			</div>
+		</div>
+		<!-- Header -->
+
+		<div id="banner">&nbsp;</div>
+
+		<div id="featured">
+			<div class="container">
+				<div class="row">
+					<div class="3u">
+						<section>
+							<header>
+								<h2>Electrooculogram Signal</h2>
+							</header>
+						</section>
+						<section>
+							<a href="#" class="image full"><img src="images/pics04.jpg" alt=""></a>
+							<header>
+								<h2>PCB Revision 2</h2>
+							</header>
+                                                        <a href="#" class="image full"><img src="images/board_rev2.png" alt=""></a>
+						</section>
+					</div>		
+					
+					<div class="9u">
+						<section>
+							<header>
+								<h2>REM Sleep Cycle Monitor</h2>
+							</header>
+							
+                                                        <p>My senior design project for my Electrical Engineering degree at North Dakota State University is called the REM Sleep Cycle Monitor. A big trend nowadays is using movement on phones or Fitbit bands. These are nice, but they aren't extremely accurate as different people move in their sleep different amounts. However, we wanted a much more accurate method of obtaining REM sleep information. This is where our project comes in. We used electrooculogram in order to measure eye movement. There is a voltage difference between one side of your forehead and the other caused by movement in the eyes with a reference in the middle of the forehead that acts as an unchanging midpoint. These can be taken in as signals by electrodes. We were tasked by making a headband embedded system to process the EOG signals. 
+                                                        </p>
+
+                                                        <p>We can measure this, amplify it, and filter out most of the noise from it. We then do some processing on our chip in order to send it off via BLE to a smartphone. We created a circuit to accomplish this at very low power so we can reduce battery size, EM radiation, and increase battery life. Our circuit power characteristics were able to meet our power requirement, so we were able to make the PCB. I enjoy designing PCBs and making efficient design, so I got to work and ended up making a cost-efficient 4 layer board that was 1.25 in. x 1.75 in. This was most of the first semester in addition to getting BLE transmitting and receiving. We also 3D modeled and designed the enclosure that was to surround the board and attach to the headband and electrodes. 
+                                                        </p>
+
+                                                        <p> Once all the hardware was ordered and prototyped the first semester, we moved on to software development second semester. Our main software is an Android App to monitor, record, and process the signals sent over bluetooth. The app functionality includes graphs of sleep cycles, storage of past sleep records, lucid dreaming cuing, and smart alarms.  
+                                                        </p>
+
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="marketing">
+			<div class="container">
+				<div class="row">
+
+				</div>
+			</div>
+		</div>
+
+		<div id="main">
+			<div class="container">
+				<div class="row">
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Copyright -->
+                <div id="copyright">
+                    <div class="container">
+                        Design: <a href="http://templated.co">TEMPLATED</a> Images: Ben Gerber, Kelsey Yon, Kenzie Stark, Dr. Amanda Brooks
+                    </div>
+                </div>
+	</body>
+</html>

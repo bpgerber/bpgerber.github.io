@@ -15,6 +15,7 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
                 <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet" type='text/css'>
                 <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet"i type='text/css'> 
+                <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet"> 
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-panels.min.js"></script>
 		<script src="js/init.js"></script>
@@ -38,17 +39,36 @@
 				</div>
 				
 				<!-- Nav -->
-				<nav id="nav">
-                                <ul>
-                                    <li><a href="index.html">Homepage</a></li>
-                                    <li><a href="backpacking.html">Backpacking</a></li>
-                                    <li><a href="research.html">Research</a></li>
-                                    <li><a href="learning_objectives.html">Learning Objectives</a></li>
-                                    <li class="active"><a href="engineering.html">Engineering</a></li>
-                                    <li><a href="resume.html">Resume</a></li>
-                                </ul>
-				</nav>
-
+                                <div class="navbar">
+                                    <div class="dropdown">
+                                        <button class="dropbtn">Hobbies
+                                        </button>
+                                        <div class="dropdown-content">
+                                            <a href="backpacking.html">Backpacking</a>
+                                            <!--<a href="engineering.html">Embedded Systems</a>-->
+                                        </div>
+                                    </div>
+                                     <div class="dropdown">
+                                         <button class="dropbtn">Projects
+                                         </button>
+                                         <div class="dropdown-content">
+                                             <a href="senior_design.html">Senior Design</a>
+                                             <a href="engineering.html">Embedded Systems</a>
+                                             <a href="projects.html">Personal Projects</a>
+                                         </div>
+                                     </div>
+                                     <div class="dropdown">
+                                         <button class="dropbtn">Research
+                                         </button>
+                                         <div class="dropdown-content">
+                                             <a href="research.html">Cell Printing</a>
+                                             <a href="learning_objectives.html">CVE 1 Objectives</a>
+                                         </div>
+                                     </div>
+                                     <a href="resume.html">Resume</a>
+                                     <a href="index.html">Homepage</a>
+                                </div>
+ 
 			</div>
 		</div>
 		<!-- Header -->
@@ -58,44 +78,6 @@
 		<div id="featured">
 			<div class="container">
 				<div class="row">
-					<div class="3u">
-						<section>
-							<header>
-								<h2>Electrooculogram Signal</h2>
-							</header>
-						</section>
-						<section>
-							<a href="#" class="image full"><img src="images/pics04.jpg" alt=""></a>
-							<header>
-								<h2>PCB Revision 2</h2>
-							</header>
-                                                        <a href="#" class="image full"><img src="images/board_rev2.png" alt=""></a>
-						</section>
-					</div>		
-					
-					<div class="9u">
-						<section>
-							<header>
-								<h2>REM Sleep Cycle Monitor</h2>
-							</header>
-							
-                                                        <p>My senior design project for my Electrical Engineering degree at North Dakota State University is called the REM Sleep Cycle Monitor. A big trend nowadays is using movement on phones or Fitbit bands. These are nice, but they aren't extremely accurate as different people move in their sleep different amounts. However, we wanted a much more accurate method of obtaining REM sleep information. This is where our project comes in. We used electrooculogram in order to measure eye movement. There is a voltage difference between one side of your forehead and the other caused by movement in the eyes with a reference in the middle of the forehead that acts as an unchanging midpoint. These can be taken in as signals by electrodes. We were tasked by making a headband embedded system to process the EOG signals. 
-                                                        </p>
-
-                                                        <p>We can measure this, amplify it, and filter out most of the noise from it. We then do some processing on our chip in order to send it off via BLE to a smartphone. We created a circuit to accomplish this at very low power so we can reduce battery size, EM radiation, and increase battery life. Our circuit power characteristics were able to meet our power requirement, so we were able to make the PCB. I enjoy designing PCBs and making efficient design, so I got to work and ended up making a cost-efficient 4 layer board that was 1.25 in. x 1.75 in. This was most of the first semester in addition to getting BLE transmitting and receiving. We also 3D modeled and designed the enclosure that was to surround the board and attach to the headband and electrodes. 
-                                                        </p>
-
-                                                        <p> Once all the hardware was ordered and prototyped the first semester, we moved on to software development second semester. Our main software is an Android App to monitor, record, and process the signals sent over bluetooth. The app functionality includes graphs of sleep cycles, storage of past sleep records, lucid dreaming cuing, and smart alarms.  
-                                                        </p>
-
-						</section>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="marketing">
-			<div class="container">
-				<div class="row">
 					<div class="6u">
 						<section>
 							<header>
@@ -103,7 +85,7 @@
 							</header>
                                                         <iframe width="560" height="315" src="https://www.youtube.com/embed/SXBYrv-O7Vc" frameborder="0" allowfullscreen>
                                                         </iframe>
-                                                        Incorporation of the sensor was done shortly after and presented in-person.
+                                                        <light>Incorporation of the sensor was done shortly after and presented in-person.</light>
 						</section>
                                         </div>
 
@@ -123,6 +105,35 @@
 			</div>
 		</div>
 
+                <div id="marketing">
+                    <div class="container">
+                        <div class="row">
+                            <div class="8u">
+                                <section>
+                                    <header>
+                                        <h2>Embedded Systems Assembly<h2>
+                                    </header>
+                                    <header>
+                                        <b>Schmitt Trigger RGB Nightlight</b>
+                                    </header>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Zzu-Vk5l5zQ" frameborder="0" allowfullscreen>
+                                    </iframe>
+                                </section>
+                            </div>
+                            <div class="4u">
+                                <section>
+                                    <header>
+                                        <h2>Description<h2>
+                                    </header>
+                                    <p>Our first real homework in Embedded Systems was to make a timed "nightlight" that will turn on an RGB light when a photoresistor detects the light drops below around 40 Lux. This project was an earlier project that was completely coded in Assembly language. All the timing was done manually with basic PIC commands. Circuit requirements were to pull 20 mA, wait at least .5 seconds before turning the light on, and have no change between 40 and 50 Lux. The last requirement was hard to demo, but it was able to be proven through math.
+                                    </p>
+                                </section>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
 		<div id="main">
 			<div class="container">
 				<div class="row">
@@ -131,14 +142,6 @@
 							<header>
 								<h2>Embedded Systems Projects</h2>
 							</header>
-                                                        <header>
-                                                            <b>Schmitt Trigger RGB Nightlight</b>
-                                                        </header>
-                                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Zzu-Vk5l5zQ" frameborder="0" allowfullscreen>
-                                                        </iframe>
-                                                        <p>
-                                                        </p>
-
                                                         <header>
                                                             <b>Chord Piano</b>
                                                         </header>
@@ -160,14 +163,6 @@
 							<header>
 								<h2>Descriptions</h2>
 							</header>
-                                                        <p>Our first real homework in Embedded Systems was to make a timed "nightlight" that will turn on an RGB light when a photoresistor detects the light drops below around 40 Lux. This project was an earlier project that was completely coded in Assembly language. All the timing was done manually with basic PIC commands. Circuit requirements were to pull 20 mA, wait at least .5 seconds before turning the light on, and have no change between 40 and 50 Lux. The last requirement was hard to demo, but it was able to be proven through math.
-                                                        </p>
-                                                        <p>&nbsp;
-                                                        </p>
-                                                        <p>&nbsp;
-                                                        </p>
-                                                        <p>&nbsp;
-                                                        </p>
                                                         <p> For the 8th embedded system homework I decided to make a chord piano. Each key played a 3 note chord. A combination of major thirds and minor thirds. The notes that played were C major, D minor, D major, E minor, F major, G major, A minor, and Bb major. This taught me how to use multiple timers in conjunction with another to get a frequency output as well as how to use a summer circuit in practical audio application. Many of these assignments taught us what we need to know for the final project. 
                                                         </p>
                                                         <p>&nbsp;
