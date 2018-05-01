@@ -87,7 +87,7 @@
 							</header>
 						</section>
 						<section>
-							<a href="#" class="image full"><img src="images/pics04.jpg" alt=""></a>
+							<a href="#" class="image full"><img src="images/eog_signal.png" alt=""></a>
 							<header>
 								<h2>PCB Revision 2</h2>
 							</header>
@@ -122,12 +122,12 @@
 				<div class="row">
                                     <div class="7u">
                                         <header>
-                                            <h2>Second Semester</h2>
+                                            <h2>Second Semester Challenges</h2>
                                         </header>
                                         <section>
                                             <p>As previously stated, second semester we delt much more with the firmware of the device, and the software of the Android app. We delt with numerous issues with the firmware including ADC sample rate vs UART baud rate. There was also a discrepancy with the bluetooth module in data stream mode and the UART data we were sending it. This consisted of the module ceasing operation when integers of the range 32-38 were sent via UART. Other obsticles included David's design of the PCB enclosure, finding suitable electrode options, and group effort of soldering all the components.
                                             </p>
-                                            <p>Our android app, named Ludidio, was a whole new exercise for me. I had never delt with any programming this high level before and had never even worked with java. I self taught myself java just like I had taught myself powershell, TCL, and most other languages. I like learning by experience. My method is learning the basics, then learning what I need for whatever application I am doing, and lastly, I test additional techniques with the working program. This was a bit more complicated learning about activities, fragments, navigation drawers, and other fun ways of implementing our layout. In this design, we have a main screen with a button to immediately implement sleep. The menu contains fragments for cue setup, alarms, data, and settings. There is a tutorial planned as well as a variety of settings a developer settings. 
+                                            <p>Our second bluetooth problem was the fact that upon firmware update, the device would stop transmitting and receiving. We contacted support at the company that was ultimately unhelpful and didn't solve our problem. David came up with the idea to take out the pull-up resistor on the not-reset pin on the bluetooth controller. In the specifications for the module, the pull-up resistor was a specified part and value. However, when we removed the resistor, the Bluetooth stopped resetting itself constantly and was able to be worked with. The very strange part was, the breadboard version of our circuit had the resistor in the circuit, and never had the problem of being reset. However, the PCB (which was checked by us and the company support as conforming to specifications) would only work if the resistor was removed, and the pin was directly connected to our MSP430 microcontroller.
                                             </p>
                                         </section>
                                     </div>
@@ -135,7 +135,8 @@
                                         <header>
                                             <h2>Project Pictures</h2>
                                         </header>
-                                        <a href="#" class="image full"><img src="images/headband_prototype_a2.jpg" width=100%></a> 
+                                        <a href="#" class="image full"><img src="images/headband_prototype_a2.jpg" width=100%></a>
+                                        <a href="#" class="image full"><img src="images/REM_sleep_analysis_2.png" width=100%></a>
                                     </div>
 				</div>
 			</div>
@@ -144,7 +145,15 @@
 		<div id="main">
 			<div class="container">
 				<div class="row">
-
+                                    <div class="8u">
+                                        <header>
+                                            <h2>Android Application</h2>
+                                        </header>
+                                        <p>Our android app, named Ludidio, was a whole new exercise for me. I had never delt with any programming this high level before and had never even worked with java. I self taught myself java just like I had taught myself powershell, TCL, and most other languages. I like learning by experience. My method is learning the basics, then learning what I need for whatever application I am doing, and lastly, I test additional techniques with the working program. This was a bit more complicated learning about activities, fragments, navigation drawers, and other fun ways of implementing our layout. In this design, we have a main screen with a button to immediately implement sleep. The menu contains fragments for cue setup, alarms, data, and settings. There is a tutorial planned as well as a variety of developer testing functionalities. 
+                                        </p>
+                                        <p>Due to time constrainsts, we were not able to implement functionality for everything we wanted. Mainly, alarms, multi-alarms, and the tutorial got cut due to time constraints. We were able to get all basic functionality done for testing and demonstration. We were able to internally test it, but have to get approval from the NDSU IRB committee to test externally which has some extra security requirements. We did however, achieve full bluetooth functionality including data streaming, commands, and functions controlling specific patterns for cues. Additionally, we have data storage in place for external use of data accessible by the user. We also have implemented graphing of the entire timestamped night's data, and real time graphing to verify functionality when going to sleep for the user.
+                                        </p>
+                                    </div>
 				</div>
 			</div>
 		</div>
